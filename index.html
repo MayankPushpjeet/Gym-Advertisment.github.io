@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+<style>
+	body{
+		padding: 0%;
+		margin: 0%;
+		background: url("gym.jpg");
+		background-size: 1500px;
+	}
+	.left{
+		position: absolute;
+		top: 10px;
+		left:10px;
+		display: inline-block;
+		color: beige;
+		text-align: center;
+		font-size: 15px;
+	}
+	.left img{
+		width:120px;
+		height: auto;
+	}
+	.mid{
+		margin-left: 33%;
+		margin-top: 20px;
+		width:650px;
+		display: inline-block;
+		color: beige;
+	}
+	.mid ul{
+		margin:0% 0%;
+	}
+	.mid ul li{
+		float: left;
+		list-style: none;
+		margin:0px 5px;
+		padding: 5px 5px;
+		font-family: 'Baloo 2', cursive;
+	}
+	a{
+		color:aliceblue;
+		text-decoration: solid;
+		padding: 0px 4px;
+	}
+	.mid ul li :hover{
+		text-decoration:underline;
+		color: blue;
+		background-color: rgb(231, 235, 9);
+	}
+	.right{
+		position: absolute;
+		top:20px;
+		left:85%;
+		width:150x;
+		display: inline-block;
+		color: beige;
+	}
+	.btn{
+		margin:0px 10px;
+		float: left;
+		display: inline-block;
+		font-family: cursive;
+		padding:2px 10px;
+		cursor:pointer;
+	}
+	.btn:hover{
+		border-color: rgb(23, 64, 245);
+	}
+    .form{
+		color: violet;
+		margin:120px 40px;
+		border:2px solid white;
+		display: inline-block;
+		width:400px;
+		height: 400px;
+		font-family: 'Baloo 2', cursive;
+		font-size: 20px;
+		font-weight: bold;
+        font-style:normal;
+	}
+	.form ul{
+		margin-left: 10px;
+	}
+	.inpt input{
+		margin: auto 10px;
+		display: inline-block;
+		width: 300px;
+		height: 30px;
+		text-align: center;
+		font-size: 14px;
+	}
+	.inpt{
+		margin:20px 20px;
+	}
+	.form ul li{
+		list-style: circle;
+	}
+	.form form button{
+		margin-left: 30px;
+	}
+</style>
+<body>
+	<div class="container">
+		<div class="left">
+			<img src="logo.png">
+		</div>
+		<div class="mid">
+			<ul>
+				<li><a href="#">Packages</a></li>
+				<li><a href="#">Gym Pictures</a></li>
+				<li><a href="#">Customer Reviews</a></li>
+				<li><a href="#">Trainer Info</a></li>
+				<li><a href="#">Contact us</a></li>
+			</ul>
+		</div>
+		<div class="right">
+			<button class="btn"> Call Us</button>
+			<button class="btn">Email Us</button>
+		</div>
+		<div class="form">
+			<ul>
+				<li>
+					Join The Best Gym In Your Locality
+				</li>
+			</ul>
+			<form action="noaction.php">
+				<div class="inpt">
+					<input type="text" placeholder="Enter Your Name">
+				</div>
+				<div class="inpt">
+					<input type="text" placeholder="Enter Your Age">
+				</div>
+				<div class="inpt">
+					<input type="text" placeholder="Enter Your Gender">
+				</div>
+				<div class="inpt">
+					<input type="text" placeholder="Enter Your Whatsapp Number">
+				</div>
+				<div class="inpt">
+					<input type="text" placeholder="Enter Your Address">
+				</div>
+				<button class="btn">
+					Submit
+				</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
